@@ -51,8 +51,7 @@ const resultado = document.getElementById("resultado");
 //     resultado.innerText = campo.value;
 // });
 
-// KEYUP
-// só dispara quando solta a tecla
+// KEYUP -> só dispara quando solta a tecla
 campo.addEventListener("keyup", () => {
     // value -> o que está sendo digitado dentro do campo.
     resultado.innerText = campo.value;
