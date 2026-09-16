@@ -27,10 +27,10 @@
 
 // *****************************************************************
 
-// EVENTOS COM JS
+//// EVENTOS COM JS
 // O que são eventos?... Ações do usuário.
 
-// Evento "Click"
+//// Evento "Click"
 // const botao = document.getElementById("btn");
 
 // botao.addEventListener("click", () => {
@@ -39,13 +39,13 @@
 
 // *****************************************************************
 
-// EVENTO DE DIGITAÇÃO (input / keyup)
+//// EVENTO DE DIGITAÇÃO (input / keyup)
 
 // evento input -> dispara sempre que digita, em tempo real.
 // const campo = document.getElementById("campo");
 // const resultado = document.getElementById("resultado");
 
-// INPUT
+//// INPUT
 // campo.addEventListener("input", () => {
 //     // value -> o que está sendo digitado dentro do campo.
 //     resultado.innerText = campo.value;
@@ -59,7 +59,7 @@
 
 // *****************************************************************
 
-// EVENTO DE MOUSE
+//// EVENTO DE MOUSE
 // const elemento = document.getElementById("troca-cor");
 // const botao = document.getElementById("btn");
 
@@ -74,8 +74,8 @@
 //     elemento.style.backgroundColor = "";
 // })
 
-// mousemove
-// pegar a posição do mouse
+//// mousemove
+//// pegar a posição do mouse
 // document.addEventListener("mousemove", (evento) => {
 //     console.log(`Posição X: ${evento.clientX}, Posição Y: ${evento.clientY}`);
 // })
@@ -98,7 +98,6 @@
 // })
 
 // Criando elementos na página
-
 const novoElemento = document.createElement("p"); // cria o elemento <p>
 novoElemento.innerText = "Elemento novo criado."; // cria um texto no elemento
 
