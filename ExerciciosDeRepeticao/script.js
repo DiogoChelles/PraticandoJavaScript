@@ -1,4 +1,4 @@
-//* NÍVEL BÁSICO
+//********************************* NÍVEL BÁSICO ******************************************
 
 //* 1. CONTAGEM DE 1 A 10
 
@@ -30,17 +30,21 @@
 
 // ****************************************************************************************
 
-//* NÍVEL INTERMEDIÁRIO
 
-//* 1. Exibir os números pares de 1 a 50
+// ******************************* NÍVEL INTERMEDIÁRIO ************************************
 
-// let i = 1;
+//* 1. Exibir os números pares de 1 a 50 
 
-// for (i; i <= 50; i++) {
+// for (let i = 1; i <= 50; i++) {
     //     if (!(i % 2))
     //         console.log(i);
     // };
 
 // ****************************************************************************************
 
-//* 2. 
+//* 2. Jogo de adivinhação
+
+//* Caminho da pasta referente ao exercício em questão: PraticandoJavaScript/ExerciciosDeRepeticao/JogoDeAdivinhacao/
+
+
+// ****************************************************************************************
